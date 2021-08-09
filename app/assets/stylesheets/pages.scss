@@ -1,0 +1,31 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+  border: 1px solid grey;
+  background: rgb(197, 197, 197);
+  width: 200px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+  
+h1 {
+    font-size: 25px;
+}
+
+p {
+  color: red;
+  background-color: grey;
+  &:hover {
+    color: black;
+  }
+}
